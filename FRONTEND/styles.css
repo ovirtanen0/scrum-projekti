@@ -2,8 +2,13 @@
 body {
     background-color: rgb(25, 0, 94);
 }
+.nav-filter {
+    filter: blur(2px);
+}
 .nav {
     background-color: rgb(16, 0, 60);
+    background-image: url(patern.png);
+    background-size: 500px;
     padding: 20px;
     margin: -10px;
 }
