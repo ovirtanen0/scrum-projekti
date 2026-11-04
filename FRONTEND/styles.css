@@ -44,10 +44,12 @@ th {
     padding: 10px;
     border-style: groove;
     border-radius: 5px;
+    text-align: center;
 }
 td {
     color: white;
     padding: 10px;
     border-style: groove;
     border-radius: 5px;
+    text-align: center;
 }
