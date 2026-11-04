@@ -10,7 +10,7 @@ const db = new tietokanta('tietokanta.db')
 
 app.get('/api/players', (req, res) => {
     const players = db.prepare(
-        'SELECT * FROM players ORDER BY CAST(kills AS INTEGER) DESC LIMIT 5'
+        'SELECT * FROM players ORDER BY kills DESC LIMIT 5'
     ).all();
 
     res.json(players);
