@@ -29,6 +29,9 @@ body {
     padding-left: 15px;
     padding: 10px;
 }
+.searchbar:focus{
+    outline: none;
+}
 .rightside {
     float: right;
     margin-right: 5px;
