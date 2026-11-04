@@ -53,3 +53,6 @@ td {
     border-radius: 5px;
     text-align: center;
 }
+.widetable {
+    min-width: 100px;
+}
