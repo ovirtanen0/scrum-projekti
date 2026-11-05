@@ -10,3 +10,5 @@ async function haku() {
 };
 
 haku();
+
+setInterval(haku, 5000);
