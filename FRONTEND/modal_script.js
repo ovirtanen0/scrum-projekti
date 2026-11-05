@@ -11,6 +11,10 @@ function showModal() {
     loginModal.classList.add('show');
 }
 
+function showModalSignUp() {
+    signupModal.classList.add('show');
+}
+
 function hideModal() {
     loginModal.classList.remove('show');
     signupModal.classList.remove('show');

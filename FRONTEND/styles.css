@@ -93,7 +93,7 @@ td {
     border: 2px solid #10003c;
     border-radius: 15px;
     width: 22.5%;
-    max-width: 480px;
+    min-width: 480px;
     height: auto;
     max-height: 740px;
     text-align: center;
