@@ -1,4 +1,4 @@
-async function haku() {
+async function hakuTOP() {
     const database = await fetch('http://localhost:3000/api/players');
     const tieto = await database.json();
     for(let i = 0; i < tieto.length; i++) {
@@ -9,6 +9,7 @@ async function haku() {
     }
 };
 
-haku();
+hakuTOP();
 
-setInterval(haku, 5000);
+setInterval(hakuTOP, 5000);
+
