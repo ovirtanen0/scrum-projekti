@@ -67,6 +67,42 @@ td {
     font-size: 30px;
 }
 
+p {
+    color: white
+}
+
+.sortleaderboard {
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    max-width: 530px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.selecte {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: groove;
+}
+
+option {
+    background-color:#160058;
+    border-style: groove;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.text1 {
+    color: white;
+}
+
 .modal {
     display: flex;
     opacity: 0;
