@@ -3,7 +3,7 @@ async function haku() {
         fetch('http://localhost:3000/api/lb'),
         fetch('http://localhost:3000/api/mr')
     ]);
-
+    
     const [tietoLB, tietoMR] = await Promise.all([
         databaseLB.json(),
         databaseMR.json()

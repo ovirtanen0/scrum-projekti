@@ -18,6 +18,20 @@
         <table class="tables" id="tables">
             <button id="filter">Filter</button>
             <h2 class="table-text">Leaderboard</h2>
+            <div class="sortleaderboard">
+                <label class="text1">Sort rankings by:</label>
+                <select id="sortranks" class="selecte">
+                    <option value="Kills" selected>Kills</option>
+                    <option value="Levels">Level</option>
+                </select><br><br>
+                <label class="text1">Show rankings:</label>
+                <select id="showranks" class="selecte">
+                    <option value="Top 10" selected>Top 10</option>
+                    <option value="Top 25">Top 25</option>
+                    <option value="Top 100">Top 100</option>
+                    <option value="All players">All players</option>
+                </select>
+            </div>
             <tr>
                 <th>Rank</th>
                 <th class="widetable">Player</th>
